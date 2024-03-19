@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../packages/bootstrap/bootstrap-3.4.1-dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../../packages/bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../packages/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet" href="../../packages/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/js/all.js">
+    <link rel="stylesheet" href="./advertiser.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="PersonalInfo">
+
+    </div>
+    <div id="VillaInfo">
+    </div>
+    <img src="../../assets/pictures home/logo1-01.jpg" id="logo">
+  <form name="form">
+    
+    <div id="logo"></div>
+    <legend id="detailsYouForm">טופס למילוי הפרטים שלך:</legend>
+    <div class="mb-3">
+        <label for="firstName" class="form-label">שם פרטי</label>
+        <div class="mb-3">
+          <input type="text" class="form-control" id="firstName">
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="lastName" class="form-label">שם משפחה</label>
+        <div class="mb-3">
+          <input type="text" class="form-control" id="lastName">
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="phone" class="form-label" >מספר פלאפון</label>
+        <div class="mb-3">
+          <input type="tel" class="form-control" id="phone" required>
+        </div>
+      </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">מייל</label>
+      <div class="mb-3">
+        <input type="email" class="form-control" id="email" required>
+      </div>
+    </div>
+    <div class="row g-3" id="address">
+        <label for="inputEmail3" class="form-label">כתובת</label>
+        <div class="mb-3">
+          <input type="text" class="form-control " placeholder="עיר/יישוב" aria-label="City" id="city">
+        </div>
+        <br>
+        <div class="mb-3">
+          <input type="text" class="form-control col-sm-2" placeholder="רחוב" aria-label="street" id="street">
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="mb-3">
+          <input type="number" class="form-control col-sm-2" placeholder="מספר בית" aria-label="number" id="number">
+        </div>
+      </div>
+
+      <div class="row g-3" id="visa">
+        <label for="inputEmail3" class="form-label">פרטי אשראי</label>
+        <div class="mb-3">
+          <input type="number" class="form-control" placeholder="מספר אשראי" id="numVisa">
+        </div>
+        <br>
+        <div class="col-sm-3" id="t">
+          <input type="number" class="form-control col-sm-2" placeholder="תוקף" id="validity">
+        </div>
+        <div class="col-sm-3" id="three">
+          <input type="number" class="form-control col-sm-2" placeholder="שלוש ספרות בגב הכרטיס" id="threeNum">
+        </div>
+      </div>
+      <br>
+    <button type="submit" class="btn btn-primary" id="btn">אישור הטופס</button>
+    <a href="../home/home.html"><i class="fas fa-arrow-alt-circle-right" id="returnHome" title="למעבר לעמוד הבית"></i></a>
+    </form>
+      <script src="../../packages/jquery-3.6.4.min.js"></script>
+    <script src="./advertiser.js"></script>
+</body>
+</html>

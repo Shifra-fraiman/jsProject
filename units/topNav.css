@@ -1,0 +1,52 @@
+#top-nav{
+  position: fixed;
+  z-index: 4;
+  margin-top: -0.5%;
+  background-color: rgb(245, 244, 236) ;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 4px 4px 6px  rgb(75, 75, 75);
+ 
+  }
+  #logo{
+   width: 15vh;
+   margin-left: 3%;
+   z-index: 3;
+   margin-top: 0%;
+  }
+  #returnHome{
+    margin-left: 3%;
+    z-index: 3;
+    text-decoration: none;
+  }
+  .location{
+    color: rgb(35, 53,67);
+    font: menu;
+    font-weight: bold; 
+    font-size: 15px;
+    text-decoration: none;
+    margin-left:10%;
+  }
+  #conect{
+    display: flex;
+    align-items: center;
+    width: 80vh;
+    
+  }
+  #pas{
+    background-color:  rgb(35, 53,67);
+    width: 100%;
+    height: 1.5%;
+    z-index: 2;
+    margin-top: 6%;
+    position: absolute;
+  }
+  
+  @media screen and (max-width:600px) and (min-width:400px){
+    #top-nav{
+      margin-top: -4%;
+    }
+  }

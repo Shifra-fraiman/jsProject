@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(222, 222, 222) ;
+}
+#titles{
+   text-align: center;
+   font: menu;
+   color: rgb(35, 53,67);
+}
+h1{
+    font-size: 8vh;
+    margin-bottom: 0%;
+}
+h2{
+    margin-top: 0%;
+    font-size: 5vh;
+}
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgs{
+    width: 30%;
+    display: flex;
+    margin: 2%;
+    box-shadow: 2px 2px 8px 2px grey;
+
+}
+#spaceToTopNav{
+    margin-top: 0%;
+    width: 100%;
+    height: 15vh;
+}

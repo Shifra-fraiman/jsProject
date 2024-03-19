@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../packages/bootstrap/bootstrap-3.4.1-dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../../packages/bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../packages/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet" href="../../packages/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/js/all.js">
+    <link rel="stylesheet" href="../../packages/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet" href="../../packages/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/js/all.js">
+    <link rel="stylesheet" href="../advertisers/advertiserVila.css">
+    <title>Document</title>
+</head>
+<body>
+  <img src="../../assets/pictures home/logo1-01.jpg" id="logo">
+  <form name="form">
+      <div id="logo"></div>
+      <legend id="detailVilla">טופס למילוי פרטים על הצימר שלך :</legend>
+      <div class=" mb-3">
+          <label for="name" class="form-label">שם הצימר</label>
+          <div class="mb-3">
+              <input type="text" class="form-control" id="name">
+          </div>
+      </div>
+      
+      <label for="" class="form-label" id="Area">אזור</label>
+          <div class="form-check" >
+            <label for="north">צפון</label>
+            <input type="radio" class="form-check-input" value="north" name="area" required>
+           
+            <label for="west">דרום</label>
+            <input type="radio" class="form-check-input" value="west" name="area">
+            
+            <label for="center">מרכז</label>
+            <input type="radio" class="form-check-input" value="center" name="area">
+          </div>
+
+      <div class=" mb-3">
+          <label for="city" class="form-label">עיר/יישוב</label>
+          <div class="mb-3">
+              <input type="text" class="form-control" id="place" required>
+          </div>
+      </div>
+      <div class="mb-3">
+          <label for="description" class="form-label">תיאור</label>
+          <div class="mb-3">
+              <input type="textarea" class="form-control" id="description">
+          </div>
+      </div>
+      
+      <div class="mb-3">
+          <label for="numVilla" class="form-label">מספר צימרים/ווילות</label>
+          <div class="mb-3">
+              <input type="number" class="form-control" id="numVilla">
+          </div>
+      </div>
+      <br>
+      <div class="mb-3">
+          <label for="numPeople" class="form-label">מספר נפשות בצימר</label>
+          <div class="mb-3">
+              <input type="number" class="form-control" id="numPeople" required>
+          </div>
+      </div>
+      
+          <label for="audience" class="form-label"> מיועד עבור</label>
+          <div class="form-check" id="audience">
+              <input type="checkbox" class="form-check-input" id="pairs" value="pairs"  name="audience">
+              <label for="pairs">זוגות</label>
+              <input type="checkbox" class="form-check-input" id="family" value="family" name="audience">
+              <label for="family">משפחות</label>
+              <input type="checkbox" class="form-check-input" id="groups" value="groups" name="audience">
+              <label for="groups">קבוצות</label>
+          </div>
+      <br>
+      <div class="mb-3">
+          <label for="cost" class="form-label">מחיר ללילה</label>
+          <div class="mb-3">
+              <input type="number" class="form-control" id="cost" required>
+          </div>
+      </div>
+
+          <label for="prestigous" class="form-label">אם הצימר עונה על התנאים הבאים סמן:</label>
+          <div class="form-check">
+             
+              <input type="checkbox" class="form-check-input" id="pool" value="pool" name="prestigous">
+              <label for="pool">הצימר עם בריכה</label>
+              <br>
+              <input type="checkbox" class="form-check-input" id="new" value="new" name="prestigous">
+              <label for="new">הצימר חדש או שופץ לפחות בחמש שנים האחרונות</label>
+              <br>
+              <input type="checkbox" class="form-check-input" id="sfa" value="sfa" name="prestigous" >
+              <label for="sfa">ג'קוזי/ספא</label>
+          </div>
+        <br>
+          <div class="mb-3">
+              <label for="img" class="form-label">הכנס תמונה</label>
+              <br>
+              <input type="file" id="imageInput">
+          </div>
+     
+          
+      <button type="submit" class="btn btn-primary" id="btn">אישור הטופס</button>
+      <a href="../home/home.html"><i class="fas fa-arrow-alt-circle-right" id="returnHome" title="למעבר לעמוד הבית"></i></a>
+  </form>
+  <script src="../../packages/jquery-3.6.4.min.js"></script>
+  <script src="./advertiserVila.js"></script>
+</body>
+</html>

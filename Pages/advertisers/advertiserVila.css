@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(235, 235, 235);
+    justify-content: space-between;
+    font: menu;
+}
+#logo{
+    width: 8%;
+    margin-top: 4.3%;
+    z-index: 3;
+    margin-left: 32%;
+    border-radius: 8%;
+    position: absolute;
+}
+#detailVilla{
+    color: white;
+    direction: rtl;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: bold;
+}
+#btn{
+       background-color:rgb(207,61,27) ;
+       margin-right: 85%;
+       margin-top: -10%;
+}
+form{
+        width:50%;
+        
+        border: 4px solid rgb(207,61,27);
+        border-radius: 3%;
+        background: rgb(35,53,67) ;
+        margin: auto;
+        padding: 10% 10%;
+        color: white;
+        direction: rtl;
+        padding-right: 5%;
+        padding-bottom: 5%;
+}
+#img{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-top: 8%;
+    margin-left: 0%;
+    margin-right: 2.5%;
+    border-radius:20px;
+}
+
+#returnHome{
+    font-size: 450%;
+    color: rgb(207,61,27);
+    margin: 5%;
+   
+    
+}
+@media screen and (max-width:600px) and (min-width:400px){
+    form{
+        width: 100%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    #logo{
+        display: none;
+    }
+    #btn{
+        margin-right: 70%;
+    }
+    #returnHome{
+        margin-bottom: 0%;
+    }
+
+}

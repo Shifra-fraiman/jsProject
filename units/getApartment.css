@@ -1,0 +1,102 @@
+body{
+    font: menu;
+}
+#ApartDiv{
+    background-color: rgb(245, 244, 236) ;
+    border: 2px rgb(35, 53,67) solid;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 2px grey;
+    padding: 0%;
+    
+}
+#img{ 
+    width: 110%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 0.5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    border-radius: 20px;
+}
+#href{
+  width: 50%;
+}
+#ApartData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2.5%;
+    direction: rtl;
+    width: 40%;
+    color: rgb(35, 53,67);
+}
+#iPeople{
+    color: rgb(35, 53,67);
+}
+#iPool{
+     color: rgb(248, 177,15);
+}
+#poolI{
+  color: rgb(248, 177,15);
+  margin: 2%;
+    box-shadow: 2px 2px 2px 2px grey;;
+    padding: 0.5%;
+    border-radius: 5px;
+    border-color: rgb(248, 177,15);
+    font-size: 80%;
+    text-align: center;
+}
+#numPeopleI{
+  color: rgb(35, 53,67);
+}
+#favoriteBtn{
+    color: rgb(207, 61,27);
+    
+}
+i{
+    margin: 2%;
+    color:white;
+    font-size: 250%;
+    color: rgb(207, 61,27);
+}
+.iDiv{
+    margin: 2%;
+    color: rgb(207, 61,27);
+    box-shadow: 2px 2px 2px 2px grey;;
+    padding: 0.5%;
+    border-radius: 5px;
+    font-size: 80%;
+    text-align: center;
+   
+}
+ul>li{
+    width: 20%;
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+@media screen and (max-width:600px) and (min-width:400px){
+    #ApartDiv{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #ApartData{
+        width: 95%;
+        margin: 2%;
+    }
+    #href{
+        width: 91%;
+    }
+}
